@@ -1,0 +1,23 @@
+LS
+
+November 10, 2017
+
+%!target: man
+%!options(html): --mask-email
+
+= NAME =
+
+ls -- list directory contents
+
+= SYNOPSIS =
+
+**ls** [//FILE//]
+
+= DESCRIPTION =
+
+List  information  about the FILEs (the current directory by default).
+
+= EXIT STATUS =
+
+: 0 if OK,
+: 1 if problems (e.g., cannot access subdirectory),

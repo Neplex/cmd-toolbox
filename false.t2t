@@ -1,0 +1,22 @@
+FALSE
+
+November 10, 2017
+
+%!target: man
+%!options(html): --mask-email
+
+= NAME =
+
+false -- do nothing, unsuccessfully
+
+= SYNOPSIS =
+
+**false**
+
+= DESCRIPTION =
+
+Exit with a status code indicating failure.
+
+= EXIT STATUS =
+
+Always 1

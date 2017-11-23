@@ -1,0 +1,23 @@
+CAT
+
+November 10, 2017
+
+%!target: man
+%!options(html): --mask-email
+
+= NAME =
+
+cat -- concatenate files and print on the standard output
+
+= SYNOPSIS =
+
+**cat** //FILE// ...
+
+= DESCRIPTION =
+
+Concatenate FILE(s) to standard output.
+
+= EXIT STATUS =
+
+: 0 if is OK
+: 1 if an error occured (e.g., file does not exist)

@@ -1,0 +1,24 @@
+RMDIR
+
+November 10, 2017
+
+%!target: man
+%!options(html): --mask-email
+
+= NAME =
+
+rmdir -- make directories
+
+= SYNOPSIS =
+
+**rmdir** //DIRECTORY//
+
+= DESCRIPTION =
+
+Remove the DIRECTORY, if it is empty.
+
+= EXIT STATUS =
+
+: 0 if is OK
+: 1 if cannot remove directory
+: 2 if bad argument

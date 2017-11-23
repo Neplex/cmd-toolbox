@@ -1,0 +1,24 @@
+MKDIR
+
+November 10, 2017
+
+%!target: man
+%!options(html): --mask-email
+
+= NAME =
+
+mkdir -- make directories
+
+= SYNOPSIS =
+
+**mkdir** //DIRECTORY//
+
+= DESCRIPTION =
+
+Create the DIRECTORY, if it do not already exist.
+
+= EXIT STATUS =
+
+: 0 if is OK
+: 1 if cannot create directory
+: 2 if bad argument
