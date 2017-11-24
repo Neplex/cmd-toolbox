@@ -1,0 +1,24 @@
+RM
+
+November 10, 2017
+
+%!target: man
+%!options(html): --mask-email
+
+= NAME =
+
+rm -- remove file
+
+= SYNOPSIS =
+
+**rm** //FILE//
+
+= DESCRIPTION =
+
+Remove (unlink) the FILE.
+
+= EXIT STATUS =
+
+: 0 if is OK
+: 1 if an error occured (e.g., file does not exist)
+: 2 if bad argument

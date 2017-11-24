@@ -16,6 +16,8 @@ tool tools[] = {
   {"cat", "concatenate files and print on the standard output", main_cat},
   {"mv", "move (rename) files", main_mv},
   {"cp", "copy files and directories", main_cp},
+  {"rm", "remove file", main_rm},
+  {"ln", "make links between files", main_ln},
   {"true", "do nothing, successfully", main_true},
   {"false", "do nothing, unsuccessfully", main_false},
   {NULL, NULL, NULL}
