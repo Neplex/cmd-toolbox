@@ -28,6 +28,8 @@ int main_link(int, char *[]);
 int main_cat(int, char *[]);
 int main_mv(int, char *[]);
 int main_cp(int, char *[]);
+int main_rm(int, char *[]);
+int main_ln(int, char *[]);
 
 int main_true(int, char *[]);
 int main_false(int, char *[]);

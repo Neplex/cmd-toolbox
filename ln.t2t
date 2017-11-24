@@ -1,0 +1,26 @@
+LN
+
+November 10, 2017
+
+%!target: man
+%!options(html): --mask-email
+
+= NAME =
+
+ln -- make links between files
+
+= SYNOPSIS =
+
+**ln** //FILE1// //FILE2//
+
+= DESCRIPTION =
+
+Create a link named FILE2 to an existing FILE1.
+
+  = -s = make symbolic links instead of hard links
+
+= EXIT STATUS =
+
+: 0 if is OK
+: 1 if cannot create link
+: 2 if bad argument
